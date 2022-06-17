@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_rciva_form" model="ir.ui.view">
+            <field name="name">view_rciva_form</field>
+            <field name="model">rciva</field>
+            <field name="arch" type="xml">
+                <form string="Formulario">
+                    <sheet>
+                        <group>
+                            <field name="employee"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        
+    </data>
+    <!-- <menuitem id="form_rciva" name="rciva" parent="hr_payroll.menu_hr_payroll_report" /> -->
+</odoo>
